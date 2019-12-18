@@ -67,7 +67,7 @@ export default class NerdpackLayoutTBone extends React.Component {
         </Stack>
         <Grid
           className="primary-grid"
-          spacingType={[Grid.SPACING_TYPE.NONE, Grid.SPACING_TYPE.NONE]}
+          spacingType={[Grid.SPACING_TYPE.LARGE, Grid.SPACING_TYPE.LARGE, Grid.SPACING_TYPE.NONE, Grid.SPACING_TYPE.LARGE]}
         >
           {/*
             Note: This sidebar does _not_ have to be a list of links/navigation.
