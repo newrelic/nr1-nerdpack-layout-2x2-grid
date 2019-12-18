@@ -74,7 +74,7 @@ export default class NerdpackLayoutTBone extends React.Component {
             It can just as easily contain content. This is just an example of how it
             may be used.
           */}
-          <GridItem className="primary-content-container" columnSpan={3}>
+          <GridItem className="primary-content-container" columnSpan={6}>
             <main className="primary-content full-height">
               <Stack
                 className="empty-state"
@@ -102,7 +102,7 @@ export default class NerdpackLayoutTBone extends React.Component {
               </Stack>
             </main>
           </GridItem>
-          <GridItem className="primary-content-container" columnSpan={3}>
+          <GridItem className="primary-content-container" columnSpan={6}>
             <main className="primary-content full-height">
               <Stack
                 className="empty-state"
@@ -130,7 +130,7 @@ export default class NerdpackLayoutTBone extends React.Component {
               </Stack>
             </main>
           </GridItem>
-          <GridItem className="primary-content-container" columnSpan={3}>
+          <GridItem className="primary-content-container" columnSpan={6}>
             <main className="primary-content full-height">
               <Stack
                 className="empty-state"
@@ -158,7 +158,7 @@ export default class NerdpackLayoutTBone extends React.Component {
               </Stack>
             </main>
           </GridItem>
-          <GridItem className="primary-content-container" columnSpan={3}>
+          <GridItem className="primary-content-container" columnSpan={6}>
             <main className="primary-content full-height">
               <Stack
                 className="empty-state"
