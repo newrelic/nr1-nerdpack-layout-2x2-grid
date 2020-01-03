@@ -96,7 +96,7 @@ export default class NerdpackLayoutTBone extends React.Component {
                     Have suggestions, concerns, or ideas for how this template
                     could be better? Feel free to{' '}
                     <a
-                      href="https://github.com/newrelic/nr1-nerdpack-layout-standard"
+                      href="https://github.com/newrelic/nr1-nerdpack-layout-2x2-grid"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
