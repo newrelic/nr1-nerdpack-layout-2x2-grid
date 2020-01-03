@@ -84,19 +84,25 @@ export default class NerdpackLayoutTBone extends React.Component {
                 </StackItem>
                 <StackItem>
                   <p className="empty-state-description">
-                    To use this layout, open up
-                    <code>nerdpack-layout-2x2-grid-nerdlet/index.js</code> and
-                    replace dummy content with your content. Have suggestions,
-                    concerns, or ideas for how this template could be better?
-                    Feel free to{' '}
+                    Wondering <strong>how to use this layout</strong>? check out
+                    our tutorial on{' '}
                     <a
-                      href="https://github.com/newrelic/nr1-nerdpack-layout-2x2-grid"
+                      href="https://discuss.newrelic.com/t/how-to-populate-your-nerdpack-layout-template-with-data/90955"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      submit an issue or PR :)
-                    </a>
-                    .
+                      how to populate your Nerdpack layout template with data.
+                    </a>{' '}
+                    Have suggestions, concerns, or ideas for how this template
+                    could be better? Feel free to{' '}
+                    <a
+                      href="https://github.com/newrelic/nr1-nerdpack-layout-standard"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      submit an issue or PR
+                    </a>{' '}
+                    :) .
                   </p>
                 </StackItem>
               </Stack>
