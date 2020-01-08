@@ -9,10 +9,11 @@ import {
   TextField,
   Button
 } from 'nr1';
+import EmptyState from '../components/EmptyState';
 
 // https://docs.newrelic.com/docs/new-relic-programmable-platform-introduction
 
-export default class NerdpackLayoutTBone extends React.Component {
+export default class NerdpackLayout2x2Grid extends React.Component {
   render() {
     return (
       <>
@@ -70,93 +71,97 @@ export default class NerdpackLayoutTBone extends React.Component {
           */}
           <GridItem className="primary-content-container" columnSpan={6}>
             <main className="primary-content full-height">
-              <Stack
-                className="empty-state"
-                fullWidth
-                fullHeight
-                verticalType={Stack.VERTICAL_TYPE.CENTER}
-                horizontalType={Stack.HORIZONTAL_TYPE.CENTER}
-                directionType={Stack.DIRECTION_TYPE.VERTICAL}
-                gapType={Stack.GAP_TYPE.NONE}
-              >
-                <StackItem>
-                  <h4 className="empty-state-header">Section 1</h4>
-                </StackItem>
-                <StackItem>
-                  <p className="empty-state-description">
-                    Wondering <strong>how to use this layout</strong>? check out
-                    our tutorial on{' '}
-                    <a
-                      href="https://discuss.newrelic.com/t/how-to-populate-your-nerdpack-layout-template-with-data/90955"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      how to populate your Nerdpack layout template with data.
-                    </a>{' '}
-                    Have suggestions, concerns, or ideas for how this template
-                    could be better? Feel free to{' '}
-                    <a
-                      href="https://github.com/newrelic/nr1-nerdpack-layout-2x2-grid"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      submit an issue or PR
-                    </a>{' '}
-                    :) .
-                  </p>
-                </StackItem>
-              </Stack>
+              {/* ⌄⌄ REPLACE THE LINE _BELOW_ WITH YOUR CONTENT ⌄⌄ */}
+              <EmptyState heading="Section 1" />
+              {/* ^^ REPLACE THE LINE _ABOVE_ WITH YOUR CONTENT ^^ */}
             </main>
           </GridItem>
           <GridItem className="primary-content-container" columnSpan={6}>
             <main className="primary-content full-height">
-              <Stack
-                className="empty-state"
-                fullWidth
-                fullHeight
-                verticalType={Stack.VERTICAL_TYPE.CENTER}
-                horizontalType={Stack.HORIZONTAL_TYPE.CENTER}
-                directionType={Stack.DIRECTION_TYPE.VERTICAL}
-                gapType={Stack.GAP_TYPE.NONE}
-              >
-                <StackItem>
-                  <h4 className="empty-state-header">Section 2</h4>
-                </StackItem>
-              </Stack>
+              Ut in nulla enim. Phasellus molestie magna non est bibendum non
+              venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.
+              Mauris iaculis porttitor posuere. Praesent id metus massa, ut
+              blandit odio. Proin quis tortor orci. Etiam at risus et justo
+              dignissim congue. Donec congue lacinia dui, a porttitor lectus
+              condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio
+              ac lectus vestibulum faucibus eget in metus. In pellentesque
+              faucibus vestibulum. Nulla at nulla justo, eget luctus tortor.
+              Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur
+              vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare
+              ante, ac egestas est urna sit amet arcu. Class aptent taciti
+              sociosqu ad litora torquent per conubia.Ut in nulla enim.
+              Phasellus molestie magna non est bibendum non venenatis nisl
+              tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis
+              porttitor posuere. Praesent id metus massa, ut blandit odio. Proin
+              quis tortor orci. Etiam at risus et justo dignissim congue. Donec
+              congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc
+              eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
+              faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla
+              at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet
+              egestas purus in blandit. Curabitur vulputate, ligula lacinia
+              scelerisque tempor, lacus lacus ornare ante, ac egestas est urna
+              sit amet arcu. Class aptent taciti sociosqu ad litora torquent per
+              conubia.Ut in nulla enim. Phasellus molestie magna non est
+              bibendum non venenatis nisl tempor. Suspendisse dictum feugiat
+              nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id
+              metus massa, ut blandit odio. Proin quis tortor orci. Etiam at
+              risus et justo dignissim congue. Donec congue lacinia dui, a
+              porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci.
+              Quisque eget odio ac lectus vestibulum faucibus eget in metus. In
+              pellentesque faucibus vestibulum. Nulla at nulla justo, eget
+              luctus tortor. Nulla facilisi. Duis aliquet egestas purus in
+              blandit. Curabitur vulputate, ligula lacinia scelerisque tempor,
+              lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class
+              aptent taciti sociosqu ad litora torquent per conubia.Ut in nulla
+              enim. Phasellus molestie magna non est bibendum non venenatis nisl
+              tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis
+              porttitor posuere. Praesent id metus massa, ut blandit odio. Proin
+              quis tortor orci. Etiam at risus et justo dignissim congue. Donec
+              congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc
+              eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
+              faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla
+              at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet
+              egestas purus in blandit. Curabitur vulputate, ligula lacinia
+              scelerisque tempor, lacus lacus ornare ante, ac egestas est urna
+              sit amet arcu. Class aptent taciti sociosqu ad litora torquent per
+              conubia.Ut in nulla enim. Phasellus molestie magna non est
+              bibendum non venenatis nisl tempor. Suspendisse dictum feugiat
+              nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id
+              metus massa, ut blandit odio. Proin quis tortor orci. Etiam at
+              risus et justo dignissim congue. Donec congue lacinia dui, a
+              porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci.
+              Quisque eget odio ac lectus vestibulum faucibus eget in metus. In
+              pellentesque faucibus vestibulum. Nulla at nulla justo, eget
+              luctus tortor. Nulla facilisi. Duis aliquet egestas purus in
+              blandit. Curabitur vulputate, ligula lacinia scelerisque tempor,
+              lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class
+              aptent taciti sociosqu ad litora torquent per conubia.Ut in nulla
+              enim. Phasellus molestie magna non est bibendum non venenatis nisl
+              tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis
+              porttitor posuere. Praesent id metus massa, ut blandit odio. Proin
+              quis tortor orci. Etiam at risus et justo dignissim congue. Donec
+              congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc
+              eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
+              faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla
+              at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet
+              egestas purus in blandit. Curabitur vulputate, ligula lacinia
+              scelerisque tempor, lacus lacus ornare ante, ac egestas est urna
+              sit amet arcu. Class aptent taciti sociosqu ad litora torquent per
+              conubia.
             </main>
           </GridItem>
           <GridItem className="primary-content-container" columnSpan={6}>
             <main className="primary-content full-height">
-              <Stack
-                className="empty-state"
-                fullWidth
-                fullHeight
-                verticalType={Stack.VERTICAL_TYPE.CENTER}
-                horizontalType={Stack.HORIZONTAL_TYPE.CENTER}
-                directionType={Stack.DIRECTION_TYPE.VERTICAL}
-                gapType={Stack.GAP_TYPE.NONE}
-              >
-                <StackItem>
-                  <h4 className="empty-state-header">Section 3</h4>
-                </StackItem>
-              </Stack>
+              {/* ⌄⌄ REPLACE THE LINE _BELOW_ WITH YOUR CONTENT ⌄⌄ */}
+              <EmptyState heading="Section 3" description=" " />
+              {/* ^^ REPLACE THE LINE _ABOVE_ WITH YOUR CONTENT ^^ */}
             </main>
           </GridItem>
           <GridItem className="primary-content-container" columnSpan={6}>
             <main className="primary-content full-height">
-              <Stack
-                className="empty-state"
-                fullWidth
-                fullHeight
-                verticalType={Stack.VERTICAL_TYPE.CENTER}
-                horizontalType={Stack.HORIZONTAL_TYPE.CENTER}
-                directionType={Stack.DIRECTION_TYPE.VERTICAL}
-                gapType={Stack.GAP_TYPE.NONE}
-              >
-                <StackItem>
-                  <h4 className="empty-state-header">Section 4</h4>
-                </StackItem>
-              </Stack>
+              {/* ⌄⌄ REPLACE THE LINE _BELOW_ WITH YOUR CONTENT ⌄⌄ */}
+              <EmptyState heading="Section 4" description=" " />
+              {/* ^^ REPLACE THE LINE _ABOVE_ WITH YOUR CONTENT ^^ */}
             </main>
           </GridItem>
         </Grid>
