@@ -78,76 +78,9 @@ export default class NerdpackLayout2x2Grid extends React.Component {
           </GridItem>
           <GridItem className="primary-content-container" columnSpan={6}>
             <main className="primary-content full-height">
-              Ut in nulla enim. Phasellus molestie magna non est bibendum non
-              venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.
-              Mauris iaculis porttitor posuere. Praesent id metus massa, ut
-              blandit odio. Proin quis tortor orci. Etiam at risus et justo
-              dignissim congue. Donec congue lacinia dui, a porttitor lectus
-              condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio
-              ac lectus vestibulum faucibus eget in metus. In pellentesque
-              faucibus vestibulum. Nulla at nulla justo, eget luctus tortor.
-              Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur
-              vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare
-              ante, ac egestas est urna sit amet arcu. Class aptent taciti
-              sociosqu ad litora torquent per conubia.Ut in nulla enim.
-              Phasellus molestie magna non est bibendum non venenatis nisl
-              tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis
-              porttitor posuere. Praesent id metus massa, ut blandit odio. Proin
-              quis tortor orci. Etiam at risus et justo dignissim congue. Donec
-              congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc
-              eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
-              faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla
-              at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet
-              egestas purus in blandit. Curabitur vulputate, ligula lacinia
-              scelerisque tempor, lacus lacus ornare ante, ac egestas est urna
-              sit amet arcu. Class aptent taciti sociosqu ad litora torquent per
-              conubia.Ut in nulla enim. Phasellus molestie magna non est
-              bibendum non venenatis nisl tempor. Suspendisse dictum feugiat
-              nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id
-              metus massa, ut blandit odio. Proin quis tortor orci. Etiam at
-              risus et justo dignissim congue. Donec congue lacinia dui, a
-              porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci.
-              Quisque eget odio ac lectus vestibulum faucibus eget in metus. In
-              pellentesque faucibus vestibulum. Nulla at nulla justo, eget
-              luctus tortor. Nulla facilisi. Duis aliquet egestas purus in
-              blandit. Curabitur vulputate, ligula lacinia scelerisque tempor,
-              lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class
-              aptent taciti sociosqu ad litora torquent per conubia.Ut in nulla
-              enim. Phasellus molestie magna non est bibendum non venenatis nisl
-              tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis
-              porttitor posuere. Praesent id metus massa, ut blandit odio. Proin
-              quis tortor orci. Etiam at risus et justo dignissim congue. Donec
-              congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc
-              eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
-              faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla
-              at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet
-              egestas purus in blandit. Curabitur vulputate, ligula lacinia
-              scelerisque tempor, lacus lacus ornare ante, ac egestas est urna
-              sit amet arcu. Class aptent taciti sociosqu ad litora torquent per
-              conubia.Ut in nulla enim. Phasellus molestie magna non est
-              bibendum non venenatis nisl tempor. Suspendisse dictum feugiat
-              nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id
-              metus massa, ut blandit odio. Proin quis tortor orci. Etiam at
-              risus et justo dignissim congue. Donec congue lacinia dui, a
-              porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci.
-              Quisque eget odio ac lectus vestibulum faucibus eget in metus. In
-              pellentesque faucibus vestibulum. Nulla at nulla justo, eget
-              luctus tortor. Nulla facilisi. Duis aliquet egestas purus in
-              blandit. Curabitur vulputate, ligula lacinia scelerisque tempor,
-              lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class
-              aptent taciti sociosqu ad litora torquent per conubia.Ut in nulla
-              enim. Phasellus molestie magna non est bibendum non venenatis nisl
-              tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis
-              porttitor posuere. Praesent id metus massa, ut blandit odio. Proin
-              quis tortor orci. Etiam at risus et justo dignissim congue. Donec
-              congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc
-              eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
-              faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla
-              at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet
-              egestas purus in blandit. Curabitur vulputate, ligula lacinia
-              scelerisque tempor, lacus lacus ornare ante, ac egestas est urna
-              sit amet arcu. Class aptent taciti sociosqu ad litora torquent per
-              conubia.
+              {/* ⌄⌄ REPLACE THE LINE _BELOW_ WITH YOUR CONTENT ⌄⌄ */}
+              <EmptyState heading="Section 2" description=" " />
+              {/* ^^ REPLACE THE LINE _ABOVE_ WITH YOUR CONTENT ^^ */}
             </main>
           </GridItem>
           <GridItem className="primary-content-container" columnSpan={6}>
